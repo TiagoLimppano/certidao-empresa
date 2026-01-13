@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FileText, Save, Loader2, CheckCircle2, AlertCircle, List, PlusCircle, Plus, X } from 'lucide-react';
 import { Input } from './components/ui/Input';
 import { Select } from './components/ui/Select';
-import { ThemeToggle } from './components/ui/ThemeToggle';
+import { ThemeToggle } from './components/ui/ThemeToggle.tsx';
 import { CertidaoList } from './components/CertidaoList';
 import { CertidaoForm, ApiResponse, CertidaoType } from './types';
 import { API_URL, DOC_TYPES, COMPANIES, COMPANY_CNPJ_MAP } from './constants';
