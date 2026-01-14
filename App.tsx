@@ -3,7 +3,7 @@ import { FileText, Save, Loader2, CheckCircle2, AlertCircle, List, PlusCircle, P
 import { Input } from '/components/ui/Input.tsx';
 import { Select } from '/components/ui/Select.tsx';
 import { ThemeToggle } from '/components/ui/ThemeToggle.tsx';
-import { CertidaoList } from '/components/CertidaoList.tsx';
+import { CertidaoList } from '/components/ui/CertidaoList.tsx';
 import { CertidaoForm, ApiResponse, CertidaoType } from './types';
 import { API_URL, DOC_TYPES, COMPANIES, COMPANY_CNPJ_MAP } from './constants';
 
